@@ -1,0 +1,92 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container background-gradient d-flex align-items-center justify-content-center min-vh-90">
+  <div class="card" style="width: 100%; max-width: 500px;">
+      <div class="card-body">
+          <h3 class="text-center mb-4">CALCULADORA</h3>
+
+          <div class="mb-3">
+              <input type="number" id="inputKilos" class="form-control" placeholder="Cuántos kilos es" aria-label="Recipient's username">
+          </div>
+
+          <div class="container">
+              <!-- Botones de cálculo -->
+              <div class="row mb-3 justify-content-center">
+                  <div class="col-md-11 d-flex justify-content-between">
+                      <button class="btn btn-gradient mx-2" type="button" onclick="calculate('botella')">Botella</button>
+                      <button class="btn btn-gradient mx-2" type="button" onclick="calculate('nylon')">Nylon</button>
+                      <button class="btn btn-gradient mx-2" type="button" onclick="calculate('aluminio')">Aluminio</button>
+                  </div>
+              </div>
+              <div class="row mb-3 justify-content-center">
+                  <div class="col-md-11 d-flex justify-content-between">
+                      <button class="btn btn-gradient mx-2" type="button" onclick="calculate('plastico')">Plástico</button>
+                      <button class="btn btn-gradient mx-2" type="button" onclick="calculate('zapato')">Zapato</button>
+                      <button class="btn btn-gradient mx-2" type="button" onclick="calculate('cobre')">Cobre</button>
+                  </div>
+              </div>
+              <div class="row mb-3 justify-content-center">
+                  <div class="col-md-11 d-flex justify-content-between">
+                      <button class="btn btn-gradient mx-2" type="button" onclick="calculate('papel')">Papel</button>
+                      <button class="btn btn-gradient mx-2" type="button" onclick="calculate('bateria')">Batería</button>
+                      <button class="btn btn-gradient mx-2" type="button" onclick="calculate('radiador')">Radiador</button>
+                  </div>
+              </div>
+              <div class="row mb-3 justify-content-center">
+                  <div class="col-md-11 d-flex justify-content-between">
+                      <button class="btn btn-gradient mx-2" type="button" onclick="calculate('plomo')">Plomo</button>
+                      <button class="btn btn-gradient mx-2" type="button" onclick="calculate('ropa')">Ropa</button>
+                      <button class="btn btn-gradient mx-2" type="button" onclick="calculate('bateria')">Fierro</button>
+                  </div>
+              </div>
+          </div>
+
+          <div class="mb-3">
+              <input type="text" id="result" class="form-control" placeholder="Resultado" aria-label="Resultado" readonly>
+          </div>
+
+          <div class="mb-3">
+              <input type="text" id="total" class="form-control" placeholder="Total acumulado" aria-label="Total acumulado" readonly>
+          </div>
+
+          <!-- Botón de Borrar -->
+          <div class="text-center">
+              <button class="btn btn-danger" type="button" onclick="reset()">Borrar</button>
+          </div>
+      </div>
+  </div>
+</div>
